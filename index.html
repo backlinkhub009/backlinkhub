@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="oKTxSnPt1FW4S2LDr0rdqy-1R1231hec1eGVzyNctco" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Backlink Hub — Preview</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#171a24;background:#fff;font-family:"DM Sans",Arial,sans-serif}a{text-decoration:none;color:inherit}.wrap{width:min(1140px,92%);margin:auto}
+.header{height:76px;border-bottom:1px solid #ececf2;background:#fff;position:sticky;top:0;z-index:20}.nav{height:100%;display:flex;justify-content:space-between;align-items:center}.brand{font-family:Manrope,Arial;font-weight:800;font-size:20px;display:flex;align-items:center;gap:9px}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:#6d4aff;color:#fff;font-size:11px}.nav nav{display:flex;align-items:center;gap:26px;font-size:14px;font-weight:600}.nav-btn{padding:10px 16px;border-radius:9px;background:#171a24;color:#fff}
+.hero{padding:105px 0 95px;background:radial-gradient(circle at 75% 35%,#eeeaff 0,#fff 35%)}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:75px;align-items:center}.pill{font-size:11px;font-weight:800;letter-spacing:1.6px;color:#5d3fe4}.hero h1{font:800 clamp(46px,6vw,76px)/1.02 Manrope,Arial;margin:18px 0 22px;letter-spacing:-3px}.hero h1 em{font-style:normal;color:#6d4aff}.hero p{font-size:19px;line-height:1.7;color:#686c79;max-width:650px}.hero-actions{display:flex;gap:20px;align-items:center;margin:30px 0}.btn{display:inline-flex;justify-content:center;align-items:center;border:0;border-radius:10px;padding:14px 21px;background:#6d4aff;color:#fff;font-weight:800;cursor:pointer}.text-btn{font-weight:700}.trust{display:flex;gap:20px;flex-wrap:wrap;color:#727582;font-size:13px}.hero-panel{border:1px solid #e5e3ed;border-radius:25px;background:#fff;padding:28px;box-shadow:0 25px 70px #4b397c18}.panel-top{display:flex;justify-content:space-between;font-size:10px;font-weight:800;letter-spacing:1.5px;padding-bottom:22px;border-bottom:1px solid #eee}.panel-top span:last-child{color:#28a36a}.mini-stat{padding:24px 0;border-bottom:1px solid #eee}.mini-stat:last-child{border:0}.mini-stat strong{font:800 36px Manrope;display:block}.mini-stat small{color:#7b7e88}
+.section{padding:95px 0}.section-title{max-width:650px;margin-bottom:40px}.section-title>span,.order-copy>span,.light>span{font-size:11px;font-weight:800;letter-spacing:1.8px;color:#6d4aff}.section-title h2,.order-copy h2{font:800 40px/1.1 Manrope;margin:12px 0}.section-title p,.order-copy>p{color:#727580;line-height:1.7}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{padding:25px;border:1px solid #e9e9ee;border-radius:18px;transition:.2s;background:#fff}.service-card:hover{transform:translateY(-4px);box-shadow:0 15px 35px #171a2410}.service-icon{width:44px;height:44px;border-radius:12px;background:#f0edff;color:#6d4aff;display:grid;place-items:center;font-weight:800}.service-card h3{font:700 18px Manrope;margin:18px 0 8px}.service-card p{color:#737784;line-height:1.55;min-height:50px}.service-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:22px}.service-bottom strong{font-size:14px}.service-bottom a{font-weight:800;color:#6d4aff;font-size:13px}
+.dark{background:#171a24;color:#fff}.light h2{color:#fff}.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.process-grid>div{border:1px solid #ffffff1b;border-radius:16px;padding:24px}.process-grid b{color:#a99aff}.process-grid h3{font:700 19px Manrope}.process-grid p{color:#aeb2bd;line-height:1.55;font-size:14px}
+.order-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}.order-copy{padding-top:25px}.contact-card{margin-top:30px;padding:22px;border:1px solid #e9e9ee;border-radius:15px}.contact-card p{font-size:14px}.wa{color:#168b56;font-weight:800}.order-form{padding:30px;border:1px solid #e5e5ea;border-radius:20px;box-shadow:0 20px 60px #171a240c}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{font-size:12px;font-weight:800;display:grid;gap:7px;margin-bottom:15px}input,select,textarea{font:500 14px "DM Sans";border:1px solid #dedee6;border-radius:9px;padding:12px 13px;background:#fff;outline:none}.full{width:100%}.form-note{display:block;color:#858894;text-align:center;margin-top:12px}
+.footer{padding:35px 0;border-top:1px solid #eee;display:flex;justify-content:space-between;align-items:end;color:#81838c;font-size:13px}.footer p{margin:10px 0 0}
+.modal{display:none;position:fixed;inset:0;background:#171a2488;z-index:50;padding:20px;align-items:center;justify-content:center}.modal.show{display:flex}.modal-box{width:min(520px,100%);background:#fff;border-radius:20px;padding:30px;box-shadow:0 30px 80px #0004}.close{float:right;border:0;background:#f2f2f6;border-radius:8px;padding:7px 11px;cursor:pointer}.success{padding:18px;background:#eaf9f0;color:#17784b;border-radius:10px;margin-top:15px;font-weight:700}.track-result{margin-top:15px;background:#f7f6ff;padding:15px;border-radius:12px}.status{display:inline-block;background:#f0edff;color:#5d3fe4;border-radius:99px;padding:6px 10px;font-size:11px;font-weight:800}
+@media(max-width:850px){.hero-grid,.order-grid{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr}.nav nav a:not(.nav-btn){display:none}.hero{padding:75px 0}.hero h1{letter-spacing:-2px}.footer{display:block}}
+@media(max-width:550px){.service-grid,.process-grid,.form-row{grid-template-columns:1fr}.section{padding:65px 0}.hero h1{font-size:43px}.hero-actions{flex-direction:column;align-items:flex-start}}
+
+/* AI Assistant */
+.ai-fab{position:fixed;right:24px;bottom:24px;width:60px;height:60px;border:0;border-radius:50%;background:#6d4aff;color:#fff;font-size:24px;box-shadow:0 15px 40px #4b397c45;cursor:pointer;z-index:80}
+.ai-fab:hover{transform:translateY(-2px)}
+.ai-chat{display:none;position:fixed;right:24px;bottom:96px;width:min(380px,calc(100vw - 30px));height:540px;background:#fff;border:1px solid #e4e2eb;border-radius:20px;box-shadow:0 25px 80px #171a2430;z-index:80;overflow:hidden}
+.ai-chat.open{display:flex;flex-direction:column}
+.ai-head{padding:16px 17px;background:#171a24;color:#fff;display:flex;align-items:center;justify-content:space-between}
+.ai-head-left{display:flex;gap:10px;align-items:center}.ai-avatar{width:38px;height:38px;border-radius:11px;background:#6d4aff;display:grid;place-items:center;font-size:17px}.ai-head strong{display:block;font-size:14px}.ai-head small{color:#b9bbc4;font-size:11px}
+.ai-close{border:0;background:#ffffff15;color:#fff;width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:18px}
+.ai-messages{flex:1;padding:16px;overflow:auto;background:#fafafd}
+.ai-msg{max-width:84%;padding:10px 12px;border-radius:13px;margin-bottom:10px;font-size:13px;line-height:1.5}
+.ai-msg.bot{background:#fff;border:1px solid #e9e8ef}.ai-msg.user{background:#6d4aff;color:#fff;margin-left:auto}
+.ai-quick{display:flex;gap:7px;overflow:auto;padding:9px 12px;border-top:1px solid #eee}
+.ai-quick button{white-space:nowrap;border:1px solid #dedce8;background:#fff;border-radius:99px;padding:7px 10px;font-size:11px;cursor:pointer}
+.ai-input{display:flex;gap:7px;padding:12px;border-top:1px solid #eee;background:#fff}
+.ai-input input{margin:0;flex:1}.ai-send{border:0;border-radius:9px;background:#6d4aff;color:#fff;width:43px;cursor:pointer}
+.ai-typing{color:#858894;font-size:12px;margin:0 0 10px 2px}
+@media(max-width:550px){.ai-fab{right:16px;bottom:16px}.ai-chat{right:10px;bottom:86px;height:calc(100vh - 105px)}}
+</style>
+</head>
+<body>
+<header class="header"><div class="wrap nav"><a class="brand" href="#"><span class="brand-mark">BH</span>Backlink <b>Hub</b></a><nav><a href="#services">Services</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#order">Order</a><a class="nav-btn" href="#order">Get Started</a></nav></div></header>
+
+<section class="hero"><div class="wrap hero-grid"><div>
+<span class="pill">● ACCEPTING NEW ORDERS</span>
+<h1>SEO services built for <em>real growth.</em></h1>
+<p>Backlinks, content writing and website design — ordered through one simple, professional workspace.</p>
+<div class="hero-actions"><a class="btn" href="#order">Start an Order →</a><a class="text-btn" href="#services">Explore Services</a></div>
+<div class="trust"><span>✓ Clear pricing</span><span>✓ Manual processing</span><span>✓ Direct support</span></div>
+</div><div class="hero-panel"><div class="panel-top"><span>BACKLINK HUB</span><span>● LIVE</span></div><div class="mini-stat"><strong>10</strong><small>Active Services</small></div><div class="mini-stat"><strong>24/7</strong><small>Order Intake</small></div><div class="mini-stat"><strong>100%</strong><small>Client-focused</small></div></div></div></section>
+
+<section id="services" class="section"><div class="wrap"><div class="section-title"><span>WHAT WE OFFER</span><h2>Choose the service you need</h2><p>Simple packages and custom solutions for websites at different stages.</p></div>
+<div class="service-grid" id="serviceGrid"></div></div></section>
+
+<section id="process" class="section dark"><div class="wrap"><div class="section-title light"><span>HOW IT WORKS</span><h2>A straightforward order process.</h2></div><div class="process-grid">
+<div><b>01</b><h3>Select</h3><p>Choose a service and tell us what you need.</p></div>
+<div><b>02</b><h3>Submit</h3><p>Send your website, target URL, anchor and instructions.</p></div>
+<div><b>03</b><h3>Process</h3><p>We review your order and update its status.</p></div>
+<div><b>04</b><h3>Deliver</h3><p>Receive the completed work and order details.</p></div>
+</div></div></section>
+
+<section id="order" class="section"><div class="wrap order-grid"><div class="order-copy"><span>PLACE AN ORDER</span><h2>Tell us about your project.</h2><p>Preview mode simulates the client ordering experience. No data is sent to a server.</p><div class="contact-card"><strong>Need help first?</strong><p>Use WhatsApp for quick questions before ordering.</p><a class="wa" href="#" onclick="alert('Add your WhatsApp number in the live version.')">Chat on WhatsApp ↗</a></div></div>
+<form class="order-form" id="orderForm"><div class="form-row"><label>Full Name<input id="name" required placeholder="Your name"></label><label>Email<input id="email" type="email" required placeholder="you@example.com"></label></div>
+<div class="form-row"><label>WhatsApp<input id="whatsapp" placeholder="+92..."></label><label>Service<select id="service_id" required><option value="">Select service</option></select></label></div>
+<label>Website URL<input id="website" type="url" required placeholder="https://example.com"></label>
+<div class="form-row"><label>Target URL<input id="target" type="url" placeholder="Optional"></label><label>Anchor Text<input id="anchor" placeholder="Optional"></label></div>
+<label>Requirements<textarea id="requirements" rows="5" placeholder="Tell us the exact requirements, quantity, keywords, etc."></textarea></label>
+<button class="btn full" type="submit">Submit Order Securely →</button><small class="form-note">Preview only — nothing is uploaded.</small></form></div></section>
+
+
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-title">
+      <span>WHY BACKLINK HUB</span>
+      <h2>A simple way to manage your digital growth.</h2>
+      <p>Backlink Hub brings SEO backlinks, content writing and website designing into one convenient service platform. Clients can choose a service, send clear requirements and track their project through the order system.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card"><div class="service-icon">✓</div><h3>Clear Communication</h3><p>Share your website, target URLs, anchor text, keywords and other instructions directly through the order form.</p></article>
+      <article class="service-card"><div class="service-icon">⚡</div><h3>Simple Ordering</h3><p>No complicated process. Select a service, provide your details and submit your project in a few minutes.</p></article>
+      <article class="service-card"><div class="service-icon">▣</div><h3>Flexible Services</h3><p>Choose individual backlink services or contact us for a custom package based on your website and campaign requirements.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#f8f8fb" id="faq">
+  <div class="wrap">
+    <div class="section-title">
+      <span>FAQ</span>
+      <h2>Frequently asked questions</h2>
+      <p>Quick answers to common questions before placing an order.</p>
+    </div>
+    <div style="display:grid;gap:12px;max-width:850px">
+      <details style="background:#fff;border:1px solid #e7e7ed;border-radius:14px;padding:20px">
+        <summary style="font-weight:800;cursor:pointer">How do I place an order?</summary>
+        <p style="color:#727580;line-height:1.7">Choose a service, click Order, enter your website and project requirements, then submit the form. The live version will generate an order number for your request.</p>
+      </details>
+      <details style="background:#fff;border:1px solid #e7e7ed;border-radius:14px;padding:20px">
+        <summary style="font-weight:800;cursor:pointer">Can I request a custom package?</summary>
+        <p style="color:#727580;line-height:1.7">Yes. Add your preferred quantity, niche, URLs, keywords and other requirements in the order form so the project can be reviewed accordingly.</p>
+      </details>
+      <details style="background:#fff;border:1px solid #e7e7ed;border-radius:14px;padding:20px">
+        <summary style="font-weight:800;cursor:pointer">Do you provide content writing?</summary>
+        <p style="color:#727580;line-height:1.7">Yes. Content Writing is available for SEO articles, website pages and other website content requirements.</p>
+      </details>
+      <details style="background:#fff;border:1px solid #e7e7ed;border-radius:14px;padding:20px">
+        <summary style="font-weight:800;cursor:pointer">Do you design websites?</summary>
+        <p style="color:#727580;line-height:1.7">Yes. Website Designing is available for modern responsive websites, including WordPress-based projects.</p>
+      </details>
+      <details style="background:#fff;border:1px solid #e7e7ed;border-radius:14px;padding:20px">
+        <summary style="font-weight:800;cursor:pointer">How can I check my order?</summary>
+        <p style="color:#727580;line-height:1.7">The live version can provide an order number and client tracking page. Your private admin panel will be used to update order status.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div style="margin-top:18px"><a href="https://www.facebook.com/profile.php?id=61590125955000" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:9px;background:#1877f2;color:#fff;font-weight:800;font-size:13px">f&nbsp; Follow Backlink Hub on Facebook ↗</a></div>
+<footer><div class="wrap footer"><div><a class="brand"><span class="brand-mark">BH</span>Backlink <b>Hub</b></a><p>SEO & Digital Services</p></div><div>© 2026 Backlink Hub. Preview Version.</div></div></footer>
+
+
+<button class="ai-fab" id="aiFab" aria-label="Open AI Assistant">✦</button>
+<div class="ai-chat" id="aiChat">
+  <div class="ai-head">
+    <div class="ai-head-left"><div class="ai-avatar">✦</div><div><strong>Backlink Hub AI</strong><small>Online • Instant help</small></div></div>
+    <button class="ai-close" onclick="toggleAI()">×</button>
+  </div>
+  <div class="ai-messages" id="aiMessages">
+    <div class="ai-msg bot">Hi! 👋 I'm the Backlink Hub AI assistant. I can help you choose a service, understand pricing, or place an order.</div>
+  </div>
+  <div class="ai-quick">
+    <button onclick="quickAI('What services do you offer?')">Services</button>
+    <button onclick="quickAI('Which service is right for my website?')">Recommend</button>
+    <button onclick="quickAI('How do I place an order?')">How to order</button>
+    <button onclick="quickAI('I want content writing')">Content</button>
+  </div>
+  <form class="ai-input" id="aiForm"><input id="aiInput" autocomplete="off" placeholder="Ask anything..."><button class="ai-send">➤</button></form>
+</div>
+<div class="modal" id="modal"><div class="modal-box"><button class="close" onclick="closeModal()">×</button><span class="pill">PREVIEW MODE</span><h2>Order received!</h2><p>This demonstrates what the client sees after submitting an order.</p><div class="success">✓ Order submitted successfully</div><div class="track-result"><small>Demo Order Number</small><h3 id="orderNo">BH-260808-DEMO01</h3><span class="status">Pending Review</span></div><br><button class="btn" onclick="closeModal()">Back to Website</button></div></div>
+
+<script>
+const services=[
+["Podcast Submission","Relevant podcast submission and mention service.","","◉"],
+["Image Submission","Image directory submission for relevant backlinks.","","▣"],
+["PDF Submission","PDF/document submission service for SEO campaigns.","","▤"],
+["Profile Backlinks","Relevant profile creation and backlink service.","","◎"],
+["Blog Comment Backlinks","Contextual blog comment backlink service.","","✦"],
+["Niche-Relevant Forum Backlinks","Relevant forum participation and contextual links.","","◌"],
+["Google Stacking","Google property stacking for supporting SEO assets.","","G"],
+["Cloud Stacking","Cloud-based supporting SEO stack service.","","☁"],
+["Content Writing","SEO-friendly website articles and content.","","✎"],
+["Website Designing","Modern responsive WordPress/website design.","","⌘"]
+];
+const grid=document.getElementById('serviceGrid'), select=document.getElementById('service_id');
+services.forEach((s,i)=>{
+ grid.insertAdjacentHTML('beforeend',`<article class="service-card"><div class="service-icon">${s[3]}</div><h3>${s[0]}</h3><p>${s[1]}</p><div class="service-bottom"><strong>${s[2]}</strong><a href="#order" onclick="selectService(${i})">Order →</a></div></article>`);
+ select.insertAdjacentHTML('beforeend',`<option value="${i}">${s[0]} — ${s[2]}</option>`);
+});
+function selectService(i){select.value=i;document.getElementById('order').scrollIntoView({behavior:'smooth'});}
+document.getElementById('orderForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const no='BH-260808-DEMO'+Math.floor(10+Math.random()*90);
+ document.getElementById('orderNo').textContent=no;
+ document.getElementById('modal').classList.add('show');
+});
+function closeModal(){document.getElementById('modal').classList.remove('show');}
+
+const aiFab=document.getElementById('aiFab');
+const aiChat=document.getElementById('aiChat');
+const aiMessages=document.getElementById('aiMessages');
+const aiInput=document.getElementById('aiInput');
+aiFab.addEventListener('click',toggleAI);
+function toggleAI(){aiChat.classList.toggle('open');if(aiChat.classList.contains('open'))aiInput.focus();}
+function addAIMessage(text,type){
+ const d=document.createElement('div');d.className='ai-msg '+type;d.textContent=text;aiMessages.appendChild(d);aiMessages.scrollTop=aiMessages.scrollHeight;
+}
+function quickAI(text){aiInput.value=text;sendAI(text);}
+function sendAI(text){
+ text=(text||'').trim();if(!text)return;
+ addAIMessage(text,'user');aiInput.value='';
+ const typing=document.createElement('div');typing.className='ai-typing';typing.textContent='AI is typing…';aiMessages.appendChild(typing);aiMessages.scrollTop=aiMessages.scrollHeight;
+ setTimeout(()=>{typing.remove();addAIMessage(aiReply(text),'bot');},450);
+}
+function aiReply(q){
+ const x=q.toLowerCase();
+ if(x.includes('service')||x.includes('offer')||x.includes('backlink'))
+   return 'We offer Podcast Submission, Image Submission, PDF Submission, Profile Backlinks, Blog Comment Backlinks, Niche-Relevant Forum Backlinks, Google Stacking, Cloud Stacking, Content Writing and Website Designing. You can see the full list in the Services section.';
+ if(x.includes('about')||x.includes('company')||x.includes('agency'))
+   return 'Backlink Hub is a simple digital service platform focused on backlink services, SEO content and website designing. Our goal is to make ordering clear and easy for clients.';
+ if(x.includes('faq')||x.includes('question'))
+   return 'You can ask me about services, pricing, ordering, content writing, website design, custom packages or order tracking. The FAQ section on the page also has quick answers.';
+ if(x.includes('google')||x.includes('cloud')||x.includes('stack'))
+   return 'Google Stacking and Cloud Stacking are available as supporting SEO services. Add your website and exact campaign requirements in the order form for review.';
+ if(x.includes('profile'))
+   return 'Profile Backlinks focus on creating relevant profile placements with your website information. You can specify your target URL and preferred anchor in the order form.';
+ if(x.includes('forum'))
+   return 'Niche-Relevant Forum Backlinks are intended for relevant discussion communities. Add your niche and target URL so the requirements can be reviewed before processing.';
+ if(x.includes('podcast'))
+   return 'Podcast Submission is available for brands and websites that want relevant podcast opportunities. Add your website and campaign details when ordering.';
+ if(x.includes('pdf')||x.includes('image'))
+   return 'PDF and Image Submission services are available for relevant directories and platforms. Select the service and provide your website details to start an order.';
+ if(x.includes('payment'))
+   return 'The live version can support manual payment status tracking from the admin panel. Payment gateway integration can also be added later.';
+
+ if(x.includes('recommend')||x.includes('right for')||x.includes('which'))
+   return 'For backlink needs, start with a niche-relevant service such as Forum, Profile, PDF or Podcast Submission. For new website content, Content Writing is a good choice. If you tell me your website type and goal, I can suggest a service.';
+ if(x.includes('price')||x.includes('cost'))
+   return 'Pricing is shared after reviewing your requirements. Send your project details through the order form or contact us on WhatsApp.';
+ if(x.includes('order')||x.includes('buy')||x.includes('place'))
+   return 'To place an order, choose a service, click Order, complete your website and project details, then submit the form. The live version will generate an order ID for you.';
+ if(x.includes('content')||x.includes('article')||x.includes('writing'))
+   return 'Our Content Writing service is suitable for SEO articles, website pages and other written content. Click Order under Content Writing to start.';
+ if(x.includes('website')||x.includes('design'))
+   return 'Website Designing is available for modern responsive websites. Share your website goals and requirements through the order form.';
+ if(x.includes('hello')||x.includes('hi')||x.includes('hey'))
+   return 'Hello! 👋 How can I help? You can ask about services, pricing, recommendations or placing an order.';
+ return 'I can help with Backlink Hub services, pricing, recommendations and orders. Try asking “What services do you offer?” or “How do I place an order?”';
+}
+document.getElementById('aiForm').addEventListener('submit',e=>{e.preventDefault();sendAI(aiInput.value);});
+</script>
+</body>
+</html>
