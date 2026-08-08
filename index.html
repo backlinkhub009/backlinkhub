@@ -57,7 +57,7 @@
 <div><b>04</b><h3>Deliver</h3><p>Receive the completed work and order details.</p></div>
 </div></div></section>
 
-<section id="order" class="section"><div class="wrap order-grid"><div class="order-copy"><span>PLACE AN ORDER</span><h2>Tell us about your project.</h2><p>Preview mode simulates the client ordering experience. No data is sent to a server.</p><div class="contact-card"><strong>Need help first?</strong><p>Use WhatsApp for quick questions before ordering.</p><a class="wa" href="#" onclick="alert('Add your WhatsApp number in the live version.')">Chat on WhatsApp ↗</a></div></div>
+<section id="order" class="section"><div class="wrap order-grid"><div class="order-copy"><span>PLACE AN ORDER</span><h2>Tell us about your project.</h2><p>Preview mode simulates the client ordering experience. No data is sent to a server.</p><div class="contact-card"><strong>Need help first?</strong><p>Use WhatsApp for quick questions before ordering.</p><a class="wa" href="https://wa.me/923377012922" target="_blank" rel="noopener noreferrer">WhatsApp: 03377012922 ↗</a></div></div>
 <form class="order-form" id="orderForm"><div class="form-row"><label>Full Name<input id="name" required placeholder="Your name"></label><label>Email<input id="email" type="email" required placeholder="you@example.com"></label></div>
 <div class="form-row"><label>WhatsApp<input id="whatsapp" placeholder="+92..."></label><label>Service<select id="service_id" required><option value="">Select service</option></select></label></div>
 <label>Website URL<input id="website" type="url" required placeholder="https://example.com"></label>
@@ -212,7 +212,7 @@ function aiReply(q){
    return 'Website Designing is available for modern responsive websites. Share your website goals and requirements through the order form.';
  if(x.includes('hello')||x.includes('hi')||x.includes('hey'))
    return 'Hello! 👋 How can I help? You can ask about services, pricing, recommendations or placing an order.';
- return 'I can help with Backlink Hub services, pricing, recommendations and orders. Try asking “What services do you offer?” or “How do I place an order?”';
+ return 'You can contact Backlink Hub on WhatsApp at 03377012922. I can also help with services, recommendations and placing an order. Try asking “What services do you offer?” or “How do I place an order?”';
 }
 document.getElementById('aiForm').addEventListener('submit',e=>{e.preventDefault();sendAI(aiInput.value);});
 </script>
